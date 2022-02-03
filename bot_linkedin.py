@@ -10,9 +10,9 @@ driver = webdriver.Firefox()
 
 driver.get("https://www.linkedin.com/login/pt?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
 login = driver.find_element(By.ID, "username")
-login.send_keys("vinicius_samaritano@yahoo.com.br")
+login.send_keys("email")
 senha = driver.find_element(By.ID, "password")
-senha.send_keys("98889803")
+senha.send_keys("senha")
 driver.find_element(By.XPATH, '/html/body/div/main/div[2]/div[1]/form/div[3]/button').click()
 time.sleep(2)
 
