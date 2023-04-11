@@ -37,7 +37,7 @@ while 1:
         btn.click()
         time.sleep(3)
         driver.find_element(By.CLASS_NAME, 'mr1').click()
-        mensagem = driver.find_element(By.ID, "custom-message").send_keys("Olááá !!! Boa tarde ! Me chamo Vinicius e sou graduando de Analise e Dev de Sistemas. Gostaria de expandir minha rede de conexões aqui no Linkedin com o intuito de me aprimorar profissionalmente e aprender com aqueles que possuem uma bagagem de conhecimento maior na área Ciência de Dados !")
+        mensagem = driver.find_element(By.ID, "custom-message").send_keys("Mensagem")
         time.sleep(6)
         driver.find_element(By.CLASS_NAME, 'ml1').click()
         time.sleep(6)
